@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Ex01 {
 
-    public static final String SONG_PATH = "src/sec12/chap03/beatles.txt";
+    public static final String SONG_PATH = "src/sec12/ch03/beatles.txt";
 
     public static void main(String[] args) {
 

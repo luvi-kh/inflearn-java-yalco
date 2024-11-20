@@ -11,8 +11,8 @@ import java.util.List;
 
 public class Ex02 {
 
-    public static final String SONG_PATH = "src/sec12/chap03/beatles.txt";
-    public static final String IMG_PATH = "src/sec12/chap03/windows.jpeg";
+    public static final String SONG_PATH = "src/sec12/ch03/beatles.txt";
+    public static final String IMG_PATH = "src/sec12/ch03/windows.jpeg";
 
     public static void main(String[] args) {
         writeLittleStar();

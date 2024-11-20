@@ -5,7 +5,7 @@ import java.io.*;
 public class Ex03 {
 
     public static void main(String[] args) {
-        String DATA_PATH = "src/sec12/chap03/data.bin";
+        String DATA_PATH = "src/sec12/ch03/data.bin";
 
         try (
                 FileOutputStream fos = new FileOutputStream(DATA_PATH);
