@@ -1,4 +1,4 @@
-package sec05.ch05;
+package sec05.ch05.ex02;
 
 public class ToggleButton extends Button {
     private boolean on;
