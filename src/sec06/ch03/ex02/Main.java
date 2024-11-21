@@ -1,4 +1,4 @@
-package sec06.ch03;
+package sec06.ch03.ex02;
 
 public class Main {
     public static void main(String[] args) {

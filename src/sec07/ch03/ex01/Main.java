@@ -1,6 +1,6 @@
 package sec07.ch03.ex01;
 
-import sec06.ch03.YalcoChicken;
+import sec06.ch03.ex02.YalcoChicken;
 
 public class Main {
     public static void main(String[] args) {
