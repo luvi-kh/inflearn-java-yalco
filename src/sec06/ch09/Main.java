@@ -17,6 +17,39 @@ public class Main {
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now);
 
+        System.out.println("\n- - - - -\n");
+
+        LocalDate christmas23 = LocalDate.of(2023, 12, 25);
+        System.out.println(christmas23);
+
+        LocalTime lunchTime = LocalTime.of(12, 30);
+        LocalTime lunchTimeDetailed = LocalTime.of(
+                12, 30, 0, 0
+        ); // 초, 나노초까지 더할 수 있음
+        System.out.println(lunchTime);
+
+        LocalDateTime familyDinner = LocalDateTime.of(
+                2023, 12, 25, 18, 00
+        );
+        System.out.println(familyDinner);
+        //  LocalDateTime 인스턴스는 LocalDate와 LocalTime 인스턴스의 조합으로
+        //  만들어짐 클래스 코드에서 확인 (of 메소드)
+
+        System.out.println("\n- - - - -\n");
+
+        //  ⭐️ java.time의  Local... 클래스 인스턴스들은 불변
+        //  - 생성자 사용이 금지된 것은 인스턴스 생성을 제한하기 위함
+        //  - of 메소드를 사용하여, 적절할 때만 생성된 것을 받도록
+
+        //  💡 주어진 차이만큼의 시간이나 날짜를 '새로 만들어' 반환
+        today.plusDays(1); // ⭐️ 기존 인스턴스는 변하지 않음
+        LocalDate tomorrow = today.plusDays(1);
+        LocalDate yesterday = today.minusDays(1);
+
+        for (LocalDate day : new LocalDate[] {today, tomorrow, yesterday}) {
+            System.out.println(day);
+        }
+
         LocalDate threeMonthsLater = today.plusMonths(3);
         LocalDate tenYearsBefore = today.minusYears(10);
 
