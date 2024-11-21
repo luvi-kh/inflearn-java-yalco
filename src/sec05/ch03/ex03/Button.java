@@ -1,4 +1,4 @@
-package sec05.ch03;
+package sec05.ch03.ex03;
 
 public class Button {
     static String mode = "LIGHT";
