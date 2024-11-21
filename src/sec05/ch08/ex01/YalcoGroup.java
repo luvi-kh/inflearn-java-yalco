@@ -1,4 +1,4 @@
-package sec05.ch08;
+package sec05.ch08.ex01;
 
 public abstract class YalcoGroup {
     protected static final String CREED = "우리의 %s 얄팍하다";

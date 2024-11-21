@@ -1,4 +1,4 @@
-package sec05.ch08;
+package sec05.ch08.ex01;
 
 public class YalcoChicken extends YalcoGroup {
     public static String getCreed () {
