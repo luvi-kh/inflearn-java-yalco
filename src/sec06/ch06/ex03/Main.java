@@ -1,4 +1,4 @@
-package sec06.ch06;
+package sec06.ch06.ex03;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,6 +41,14 @@ public class Main {
 
         for (YalcoChickenMenu menu : menus) {
             System.out.println(menu.getDesc());
+        }
+
+        System.out.println("\n- - - - -\n");
+
+        YalcoChicken store1 = new YalcoChicken();
+
+        for (String menuName : "양념치킨,능이백숙,땡초치킨".split(",")) {
+            store1.takeOrder(menuName);
         }
     }
 }

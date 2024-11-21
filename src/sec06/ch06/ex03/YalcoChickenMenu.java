@@ -1,4 +1,4 @@
-package sec06.ch06;
+package sec06.ch06.ex03;
 
 public enum YalcoChickenMenu {
     FR("후라이드", 10000, 0),
