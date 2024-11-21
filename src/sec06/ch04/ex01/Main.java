@@ -1,8 +1,8 @@
 package sec06.ch04.ex01;
 
-import sec05.ch08.YalcoCafe;
-import sec05.ch08.YalcoChicken;
-import sec05.ch08.YalcoGroup;
+import sec05.ch08.ex01.YalcoCafe;
+import sec05.ch08.ex01.YalcoChicken;
+import sec05.ch08.ex01.YalcoGroup;
 
 public class Main {
     public static void main(String[] args) {
