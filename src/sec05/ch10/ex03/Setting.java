@@ -1,4 +1,4 @@
-package sec05.ch10;
+package sec05.ch10.ex03;
 
 public class Setting {
 

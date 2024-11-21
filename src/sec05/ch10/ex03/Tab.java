@@ -1,4 +1,4 @@
-package sec05.ch10;
+package sec05.ch10.ex03;
 
 public class Tab {
     //  ⭐️ 공유되는 유일한 인스턴스를 받아옴
