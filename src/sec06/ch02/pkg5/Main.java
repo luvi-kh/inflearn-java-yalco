@@ -1,6 +1,6 @@
 package sec06.ch02.pkg5;
 
-import sec05.ch03.Button;
+import sec05.ch03.ex03.Button;
 
 import java.io.InputStream;
 import java.io.Serializable;
