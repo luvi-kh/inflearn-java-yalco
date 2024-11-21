@@ -1,4 +1,4 @@
-package sec05.ch09;
+package sec05.ch09.ex01;
 
 public abstract class Mammal {
     public boolean hibernation;

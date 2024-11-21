@@ -1,4 +1,4 @@
-package sec05.ch09;
+package sec05.ch09.ex01;
 
 public class Main {
     public static void main(String[] args) {
