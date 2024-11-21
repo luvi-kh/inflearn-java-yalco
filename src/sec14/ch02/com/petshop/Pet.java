@@ -1,4 +1,4 @@
-package sec14.ch2.com.petshop;
+package sec14.ch02.com.petshop;
 
 public abstract class Pet {
     public static void intro () {

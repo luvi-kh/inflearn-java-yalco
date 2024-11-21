@@ -1,4 +1,4 @@
-package sec14.ch2.com.petshop;
+package sec14.ch02.com.petshop;
 
 public class Dog extends Pet {
     public Dog(String name) {

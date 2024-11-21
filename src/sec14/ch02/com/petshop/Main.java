@@ -1,4 +1,4 @@
-package sec14.ch2.com.petshop;
+package sec14.ch02.com.petshop;
 
 public class Main {
     public static void main(String[] args) {
