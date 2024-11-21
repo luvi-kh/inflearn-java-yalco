@@ -1,29 +1,10 @@
-package sec04;
+package sec04.ch07;
 
 import java.util.Scanner;
 
-public class ch07 {
+public class Ex03 {
     public static void main(String[] args) {
-
-        //  IDE가 최상단에 import java.util.Scanner 자동 작성
         Scanner sc = new Scanner(System.in);
-
-        String str1 = sc.next();
-        String str2 = sc.next();
-        String str3 = sc.nextLine();
-
-        System.out.println("str1: " + str1);
-        System.out.println("str2: " + str2);
-        System.out.println("str3: " + str3);
-
-        boolean bool = sc.nextBoolean();
-        int intNum = sc.nextInt();
-        double dblNum = sc.nextDouble();
-        // 🧪 기타 next~ 메서드들 확인해 볼 것
-
-        System.out.println("bool: " + bool);
-        System.out.println("intNum: " + intNum);
-        System.out.println("dblNum: " + dblNum);
 
         System.out.println("불리언을 입력해주세요.");
 
@@ -37,6 +18,13 @@ public class ch07 {
         //  파일 등으로부터 읽어오는데 사용시 필수
         sc.close();
 
+        System.out.println("정수를 입력해주세요.");
+
+        while (sc.hasNextInt()) {
+            System.out.println("입력값: " + sc.nextInt());
+        }
+
+        sc.close();
 
         System.out.println("단어를 입력해주세요.");
 
@@ -55,20 +43,5 @@ public class ch07 {
         }
 
         sc.close();
-
-        //  문자열 바로 입력하여 사용하기
-
-        String [] strInputs = new String [5];
-
-        for (int i = 0; i < strInputs.length; i++) {
-            strInputs[i] = sc.nextLine();
-        }
-
-        sc.close();
-
-        for (String str : strInputs) {
-            System.out.println(str);
-        }
     }
-
 }
