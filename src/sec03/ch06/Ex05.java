@@ -1,8 +1,7 @@
-package sec03;
+package sec03.ch06;
 
-public class ch06_2 {
+public class Ex05 {
     public static void main(String[] args) {
-
         String str_a1 = "ABC";
         String str_a2 = "ABCDE";
         String str_a3 = "ABCDEFG";
@@ -31,8 +30,5 @@ public class ch06_2 {
 
         //  💡 compareToIgnoreCase : 대소문자 구분 없이 비교
         int int_b2 = str_b1.compareToIgnoreCase(str_b2);
-
-
-
     }
 }
