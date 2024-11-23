@@ -1,6 +1,6 @@
-package sec03;
+package sec03.ch05;
 
-public class ch05 {
+public class Ex02 {
     public static void main(String[] args) {
         String hl1 = "Hello";
         String hl2 = "Hello";
@@ -18,6 +18,11 @@ public class ch05 {
         //   특별한 경우가 아니면 문자열은 .equals로 비교할 것
         boolean bool3 = hl3 == hl4;
 
+        boolean bool4 = hl1.equals(hl2);
+        boolean bool5 = hl1.equals(hl3);
+        boolean bool6 = hl3.equals(hl4);
+        boolean bool7 = wld.equals(hl2);
+
         //  같은 곳을 참조하는 인스턴스들
         boolean bool8 = hl4 == hl5;
 
@@ -27,6 +32,5 @@ public class ch05 {
         int hl3hash = System.identityHashCode(hl3);
         int hl4hash = System.identityHashCode(hl4);
         int hl5hash = System.identityHashCode(hl5);
-
     }
 }
