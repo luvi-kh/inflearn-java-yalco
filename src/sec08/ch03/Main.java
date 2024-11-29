@@ -87,15 +87,15 @@ public class Main {
 
         //  💡 TreeSet의 주요 메소드들
         int firstInt = intTreeSet.first();
-//        String lastStr = strTreeSet.last();
+        String lastStr = ((TreeSet<String>) strTreeSet).last();
 
         //  같은 것이 없다면 트리구조상 바로 위의 것 (바로 더 큰 것) 반환
-//        String foxCeiling = strTreeSet.ceiling("Fox");
-//        String creamCeiling = strTreeSet.ceiling("Cream");
+        String foxCeiling = ((TreeSet<String>) strTreeSet).ceiling("Fox");
+        String creamCeiling = ((TreeSet<String>) strTreeSet).ceiling("Cream");
 
         //  같은 것이 없다면 트리구조상 바로 아래의 것 (바로 더 작은 것) 반환
-//        String foxFloor = strTreeSet.floor("Fox");
-//        String diceFloor = strTreeSet.floor("Cream");
+        String foxFloor = ((TreeSet<String>) strTreeSet).floor("Fox");
+        String diceFloor = ((TreeSet<String>) strTreeSet).floor("Cream");
 
         //  맨 앞에서/뒤에서 제거
 
