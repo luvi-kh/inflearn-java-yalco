@@ -157,7 +157,7 @@ public class Main {
         String list1Type = list1.getClass().getName();
         String list2Type = list2.getClass().getName();
 
-        list1.add(6); // ⚠️ 런타임 오류
+//        list1.add(6); // ⚠️ 런타임 오류
 
         List<Integer> intList = new ArrayList<>();
         intList = new LinkedList<>();
