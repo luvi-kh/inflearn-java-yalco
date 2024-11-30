@@ -90,18 +90,18 @@ public class Ex02 {
         Object[] fromRangeBox_Arr = fromRangeBox.toArray();
 
         //  💡 원시자료형 스트림의 기능들로 생성
-//        IntStream fromRange1 = IntStream.range(10, 20); // 20 미포함
-//        IntStream fromRange2 = IntStream.rangeClosed(10, 20); // 20 포함
+        IntStream fromRange3 = IntStream.range(10, 20); // 20 미포함
+        IntStream fromRange4 = IntStream.rangeClosed(10, 20); // 20 포함
 //
-//        Stream<Integer> fromRangeBox = fromRange1.boxed();
-//        Object[] fromRangeBox_Arr = fromRangeBox.toArray();
+        Stream<Integer> fromRangeBox3 = fromRange3.boxed();
+        Object[] fromRangeBox_Arr3 = fromRangeBox3.toArray();
 
         //  💡 원시자료형 스트림의 기능들로 생성
-//        IntStream fromRange1 = IntStream.range(10, 20); // 20 미포함
-//        IntStream fromRange2 = IntStream.rangeClosed(10, 20); // 20 포함
+        IntStream fromRange5 = IntStream.range(10, 20); // 20 미포함
+        IntStream fromRange6 = IntStream.rangeClosed(10, 20); // 20 포함
 //
-//        Stream<Integer> fromRangeBox = fromRange1.boxed();
-//        Object[] fromRangeBox_Arr = fromRangeBox.toArray();
+        Stream<Integer> fromRangeBox5 = fromRange5.boxed();
+        Object[] fromRangeBox_Arr5 = fromRangeBox5.toArray();
 
         //  💡 Random 클래스의 스트림 생성 메소드들
         IntStream randomInts = new Random().ints(5, 0, 100);
@@ -117,7 +117,7 @@ public class Ex02 {
         //  💡 파일로부터 생성
         //  - File I/O : 이후 배울 것
         Stream<String> fromFile;
-        Path path = Paths.get("./src/sec09/chap04/turtle.txt");
+        Path path = Paths.get("./src/sec09/ch04/turtle.txt");
         try {
             fromFile = Files.lines(path);
         } catch (IOException e) {
