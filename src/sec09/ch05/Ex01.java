@@ -11,9 +11,9 @@ public class Ex01 {
                 .range(1, 100)
                 .filter(i -> i % 2 == 0)
                 //  💡 아래의 중간과정을 하나하나 주석해제해 볼 것
-                //.skip(10)
-                //.limit(10)
-                //.map(i -> i * 10)
+                .skip(10)
+                .limit(10)
+                .map(i -> i * 10)
                 .forEach(System.out::println);
 
         System.out.println("\n- - - - -\n");
@@ -31,9 +31,9 @@ public class Ex01 {
 
         //  사용되는 모든 알파벳 문자들을 정렬하여 프린트
         str1.chars()
-                //.sorted()
-                //.distinct()
-                //.filter(i -> (i >= 'A' && i <= 'Z') || (i >= 'a' && i <= 'z'))
+                .sorted()
+                .distinct()
+                .filter(i -> (i >= 'A' && i <= 'Z') || (i >= 'a' && i <= 'z'))
                 .forEach(i -> System.out.print((char) i));
 
         System.out.println("\n- - - - -\n");
@@ -43,10 +43,10 @@ public class Ex01 {
                 // 💡 boxed를 사용하여 Stream<Integer>으로 변환
                 //  요소를 다른 타입으로 바꾸려면 Stream<T>을 사용해야 함
                 .map(i -> String.valueOf((char) i.intValue()))
-                //.map(String::toUpperCase)
-                //.filter(s -> Character.isLetter(s.charAt(0)))
-                //.sorted()
-                //.distinct()
+                .map(String::toUpperCase)
+                .filter(s -> Character.isLetter(s.charAt(0)))
+                .sorted()
+                .distinct()
                 .collect(Collectors.joining(", "));
 
         System.out.println("\n- - - - -\n");
