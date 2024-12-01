@@ -14,7 +14,7 @@ public class Main {
         IndexOutOfBoundsException indexOutOfBoundsException;
 
         int[] ints = {1, 2, 3};
-        System.out.println(ints[3]); // ⚠️ 런타임 예외 발생
+//        System.out.println(ints[3]); // ⚠️ 런타임 예외 발생
         System.out.println("예외를 방지하지 않았을 때");
 
         try {
