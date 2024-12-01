@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Ex01 {
     public static void main(String[] args) {
-        String correctPath = "./src/sec09/chap04/turtle.txt";
-        String wrongPath = "./src/sec09/chap04/rabbit.txt";
+        String correctPath = "./src/sec09/ch04/turtle.txt";
+        String wrongPath = "./src/sec09/ch04/rabbit.txt";
 
         openFile1(correctPath);
         openFile1(wrongPath);
