@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Ex01 {
 
     // 프로젝트에 맞게
-    public static final String CUR_PATH = "src/sec12/chap01/";
+    public static final String CUR_PATH = "src/sec12/ch01/";
     public static void main(String[] args) {
 
         String filePath = "file1.txt";
