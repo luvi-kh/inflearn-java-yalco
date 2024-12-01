@@ -27,9 +27,9 @@ public class Main {
 
         //  💡 각각 새로운 쓰레드를 생성하여 동시에 진행
         //  - 실행시마다 결과 다를 수 있음
-        //thread1.start();
-        //thread2.start();
-        //thread3.start();
+        thread1.start();
+        thread2.start();
+        thread3.start();
 
         for (int i = 0; i < 20; i++) {
             // 😴
