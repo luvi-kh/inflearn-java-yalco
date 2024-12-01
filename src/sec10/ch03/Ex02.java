@@ -6,7 +6,7 @@ public class Ex02 {
     public static void main(String[] args) {
         registerDutyMonth("정핫훈", 7);
 
-        registerDutyMonth("김돌준", 13);
+//        registerDutyMonth("김돌준", 13);
         //  ⭐️ try 문으로 감싸지 않았음
         //  - 다음 코드들이 실행되려면 주석처리해야 함
 
