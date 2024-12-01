@@ -16,6 +16,17 @@ public class Main {
         try {
             //  여기서 아래의 메소드들을 하나씩 호출할 것
             supplyAsyncEx();
+//            thenAcceptEx1();
+//            thenAcceptEx2();
+//            thenApplyEx1();
+//            thenApplyEx2();
+//            exceptionallyEx();
+//            thenComposeEx();
+//            thenCombineEx();
+//            allOfEx1();
+//            allOfEx2();
+//            trainSwordmanWithFJP();
+//            anyOfEx();
 
         } catch (Exception e) {
             e.printStackTrace();
