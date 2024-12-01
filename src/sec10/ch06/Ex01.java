@@ -5,7 +5,7 @@ import java.util.Random;
 public class Ex01 {
     public static void main(String[] args) {
         String nulStr = null;
-        System.out.println(nulStr.length()); // ⚠️ NPE
+//        System.out.println(nulStr.length()); // ⚠️ NPE
 
         System.out.println(
                 catOrNull().length()  // 반복실행해 볼 것

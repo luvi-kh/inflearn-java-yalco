@@ -18,7 +18,7 @@ public class Ex02 {
         Optional<String> catOpt = Optional.of("Cat");
 
         //  ⚠️ of로 null을 담으면 NPE
-        catOpt = Optional.of(null);
+//        catOpt = Optional.of(null);
 
         //  ofNullable : 담으려는 것이 null일 수도 있을 때
         Optional<String> dogOpt = Optional.ofNullable("Dog");

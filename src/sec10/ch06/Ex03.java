@@ -3,6 +3,7 @@ package sec10.ch06;
 import sec09.ch05.Person;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.IntStream;
@@ -59,9 +60,8 @@ public class Ex03 {
                 //.filter(p -> !p.isMarried() && p.getAge() < 20 && p.getHeight() > 189)
 
                 .findFirst()
-
-                //.max(Comparator.comparingDouble(Person::getHeight))
-                //.min(Comparator.comparingInt(Person::getAge))
+//                .max(Comparator.comparingDouble(Person::getHeight))
+//                .min(Comparator.comparingInt(Person::getAge))
 
                 .orElse(new Person("엄친아", 19, 189.9, false));
     }
