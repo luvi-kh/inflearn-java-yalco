@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 public class Main {
 
-    public static final String CUR_PATH = "src/sec12/chap02/";
+    public static final String CUR_PATH = "src/sec12/ch02/";
 
     public static void main(String[] args) {
         //  💡 프로젝트 폴더 경로
