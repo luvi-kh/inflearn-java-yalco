@@ -24,7 +24,7 @@ public class Ex02 {
     }
 
     public static void writeLittleStar () {
-        String filePath = "src/sec12/chap03/little_star.txt";
+        String filePath = "src/sec12/ch03/little_star.txt";
         Charset charset = StandardCharsets.UTF_8;
 
         List<String> lines = Arrays.asList(
