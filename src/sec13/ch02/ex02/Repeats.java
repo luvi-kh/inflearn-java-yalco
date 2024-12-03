@@ -7,5 +7,5 @@ import java.lang.annotation.RetentionPolicy;
 //  - ⭐️ @Target, @Retention 등이 있을 때 맞춰주어야 함
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Repeats {
-//    RepeatT[] value();
+    RepeatT[] value();
 }
