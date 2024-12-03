@@ -15,9 +15,9 @@ public class Ex03 {
         HttpURLConnection conn = (HttpURLConnection) home.openConnection();
 
         //  💡 용도에 따라 아래의 메소드 등 사용
-        //conn.setRequestMethod("POST");
-        //conn.setDoOutput(true);
-        //conn.setConnectTimeout(1000);
+        conn.setRequestMethod("POST");
+        conn.setDoOutput(true);
+        conn.setConnectTimeout(1000);
         //  기타 메소드들 확인해보기
 
         //  💡 요청의 응답 코드 반환
