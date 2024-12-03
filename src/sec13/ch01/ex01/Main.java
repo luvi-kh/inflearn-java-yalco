@@ -13,7 +13,7 @@ public class Main {
         //  - 와일드카드<?> 사용 가능
         Class<Button> btnClass1 = Button.class;
         //  예외 던짐 : ClassNotFoundException
-        Class<?> btnClass2 = Class.forName("sec13.chap01.ex01.Button");
+        Class<?> btnClass2 = Class.forName("sec13.ch01.ex01.Button");
 
         boolean areSame = btnClass1 == btnClass2;
 
@@ -50,7 +50,7 @@ public class Main {
         //  - 예외 던짐 : NoSuchFieldException
         //  - public 필드만 가능
         Field btn1Disabled = btnClass1.getField("disabled");
-        //Field btnSpaces = btnClass1.getField("spaces"); //
+        Field btnSpaces = btnClass1.getField("spaces"); //
 
         System.out.println("\n- - - - -\n");
 
