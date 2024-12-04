@@ -25,7 +25,7 @@ public class Ex02 {
                 format += intFormats[i] + " ";
             }
             format = format.trim() + "%n%n";  // "%d %d %d %d%n%n" ...
-            //  System.out.println(format); // 🔍 주석해제하여 함께 확인
+              System.out.println(format); // 🔍 주석해제하여 함께 확인
 
             //  🔍 이 숫자들을 스페이스로 구분해서 출력해 볼 것
             System.out.printf(format, 12, 2345, 67890, -1234567);
