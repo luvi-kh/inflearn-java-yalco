@@ -1,8 +1,8 @@
 package sec05.ch08.ex02;
 
 public class Main {
-    public static void clickFormElement (FormElement fe) {
-        fe.func();
+
+    public static void main(String[] args) {
 
         Button button1 = new Button(2, "Enter");
         Switch switch1 = new Switch(3, true);
@@ -20,5 +20,9 @@ public class Main {
         clickFormElement(switch1);
 
         clickFormElement(dropDown1);
+    }
+
+    public static void clickFormElement (FormElement fe) {
+        fe.func();
     }
 }
