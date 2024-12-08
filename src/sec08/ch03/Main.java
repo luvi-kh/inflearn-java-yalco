@@ -106,8 +106,8 @@ public class Main {
         int pollLast2 = intTreeSet.pollLast();
 
         //  순서가 뒤집힌 NavigableSet 반환
-//        Set<String> strTreeSetDesc
-//                = (TreeSet<String>) strTreeSet.descendingSet();
+        Set<String> strTreeSetDesc
+                =  ((TreeSet<String>) strTreeSet).descendingSet();
 
         //  ⚠️ 요소로 추가 불가
         //  - 이후 배울 Comparable 또는 Comparator 필요
