@@ -137,7 +137,7 @@ public class Main {
 
         var added = addTwo.apply(12.34, 23.45);
 
-//        Double added = addTwo.apply(12.34, 23.45);
+        Double added2 = addTwo.apply(12.34, 23.45);
 
         Swordman winner1 = getWinner.apply(new Swordman(Side.RED), new Knight(Side.BLUE));
         Swordman winner2 = getWinner.apply(new MagicKnight(Side.RED), new Knight(Side.BLUE));
